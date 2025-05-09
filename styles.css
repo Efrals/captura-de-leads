@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(
+    to left,
+    rgb(238, 255, 0),
+    rgb(0, 204, 255)
+  );
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  padding-inline: 60px;
+}
+
+.titulo {
+  text-align: center;
+  width: 60%;
+}
+
+.titulo h1 {
+  font-size: 1.9rem;
+  color: #fff;
+  text-align: left;
+}
+
+.titulo h1 span {
+  font-size: 2.4rem;
+  color: #000;
+  font-weight: 1000;
+}
+
+.titulo img {
+  height: 300px;
+  width: auto;
+  margin: 50px auto;
+}
+
+.titulo p {
+  font-size: 1.4rem;
+  color: #fff;
+  text-align: left;
+}
+
+.titulo p span {
+  font-size: 1.7rem;
+  color: #000;
+  font-weight: 1000;
+}
+
+form {
+  padding: 20px;
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.575);
+  border-radius: 25px;
+}
+
+form h2 {
+  text-align: center;
+  font-size: 1.8em;
+  color: #fff;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+
+form h2 span {
+  text-align: center;
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+
+.input-box {
+  margin-bottom: 20px;
+}
+
+.input-box label {
+  display: block;
+  color: white;
+}
+
+.input-box input {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.botao-enviar {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.botao-enviar input {
+  width: 100%;
+  height: 50px;
+  background-color: cyan;
+  border: 0;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.botao-enviar input:hover {
+  box-shadow: 0px 0px 35px #fffb00;
+  transition: all 0.3s ease-in-out;
+}
