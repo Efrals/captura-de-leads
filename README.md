@@ -4,7 +4,7 @@ Este é um projeto de landing page simples e responsiva. A página apresenta um 
 
 ## 📷 Preview
 
-<img src="assets/images/PreviewCapturaDeLeads.gif" alt="Preview Captura de Leads" width="650"/>
+<img src="assets/images/PreviewCapturaDeLeads.gif" alt="Preview Captura de Leads" width="800"/>
 
 ## 🚀 Funcionalidades
 
